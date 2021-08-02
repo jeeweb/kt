@@ -1,0 +1,171 @@
+/* common class */
+.inner{
+	width: 1084px;
+	margin: 0 auto;
+}
+.flex__align--center{
+	display: flex;
+	align-items: center
+}
+.flex__center-between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex--center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ===== layout ===== */
+
+
+/* ===== skip-nav ===== */
+.skip-nav{
+	position: relative;
+	z-index: 1000;
+}
+.skip-nav > a{
+	position: absolute;
+	top: -40px;
+	left: 0;
+	right: 0;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: #E51119;
+	color: #fff;
+}
+.skip-nav > a:focus{
+	top: 0;
+}
+
+
+/* ===== header ===== */
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 16px 0;
+	z-index: 500;
+}
+.logo{
+	margin-right: 32px;
+}
+
+
+/* gnb */
+.gnb__link{
+	display: block;
+	padding: 14px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.sub-gnb{
+	display: none;
+
+}
+.gnb__item:hover .sub-gnb{
+	display: block;
+	position: absolute;
+	top: 107px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 32px 0 70px;
+}
+.list__sub-gnb__depth1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 1084px;
+	margin: 0 auto;
+}
+.sub-depth1__item + .sub-depth1__item{
+	padding-left: 28px;
+}
+.sub-depth1__link{
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	width: 186px;
+}
+
+.sub-depth2__link{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 15px;
+	padding: 8px 0;
+}
+.list__sub-gnb__depth3{
+	display:none;
+	font-size: 14px;
+}
+.sub-depth2__item.on .list__sub-gnb__depth3{
+	display: block;
+}
+.sub-depth3__link{
+	display: block;
+	padding: 8px 0 8px 15px;
+}
+
+.sub-gnb__banner{
+	position: absolute;
+	top: 36px;
+	right: 50%;
+	transform: translateX(742px);
+}
+
+/* util-menu */
+.util__link{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	padding: 14px;
+}
+.util__link > img{
+	width: 30px;
+	padding-bottom: 2px;
+}
+.util__link > span{
+	font-size: 12px;
+}
+
+/* channel-menu */
+.channel__link{
+	display: block;
+	font-size: 14px;
+	padding: 10px;
+	font-weight: 700;
+}
+.link__global{
+	display:block;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 32px;
+	text-indent: -4px;
+	width: 58px;
+	height: 30px;
+	border: 1px solid #777;
+	border-radius: 16px;
+	background: url("../images/common/chnlink-lang.png") 46px 50% no-repeat;
+}
+
+/* ===== quick menu ===== */
+
+
+/* ===== contents ===== */
+.contents{
+	padding-top: 160px;
+}
+
+
+/* ===== layout ===== */
+
+
