@@ -44,3 +44,6 @@ img {
   vertical-align: middle;
   height: auto;
 }
+em {
+	font-style: normal;
+}
