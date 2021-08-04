@@ -51,6 +51,7 @@
 	box-sizing: border-box;
 	padding: 16px 0;
 	z-index: 500;
+	background-color: #fff;
 }
 .logo{
 	margin-right: 32px;
@@ -164,6 +165,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	width: 1084px;
+	z-index: 500;
 }
 .quick-menu{
 	top: 0;
