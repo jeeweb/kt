@@ -8,7 +8,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 452px;
+	height: 220px;
 	overflow: hidden;
 }
 .bx-wrapper img{
@@ -16,6 +16,10 @@
 	width: auto;	
 	max-width: none;
 }
+.slider li img + img{
+	margin-left: 28px;
+}
+
 
 /* bx-controls */
 .bx-wrapper .bx-controls{
@@ -25,20 +29,28 @@
 	width: 206px;
 	margin-left: -542px;
 }
+
+.section .bx-wrapper .bx-controls{
+	left: auto;
+	right: 0;
+	top: -24px;
+	bottom: auto;
+}
+
 .bx-wrapper .bx-controls-direction a{
 	top: auto;
 	bottom: 0;
 	margin-top: 0;
 	width: 46px;
 	height: 46px;
-	
+	z-index: 10;
 }
 .bx-wrapper .bx-prev{
 	left: 0;
 	background: url("../images/common/btn_prev_black.png") center / cover no-repeat;
 }
 .bx-wrapper .bx-next{
-	left: 110px;
+	left: 104px;
 	right: auto;
 	background: url("../images/common/btn_next_black.png") center / cover no-repeat;
 }
@@ -47,6 +59,9 @@
 	background-position: 0;
 }
 
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{
+	width: 46px;
+}
 
 .bx-wrapper .bx-controls-auto .bx-start{
 	background: url("../images/common/btn_play.png") center / cover no-repeat;
@@ -89,4 +104,10 @@
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{
 	text-align: center;
 	width: 47px;
+}
+
+
+/* main-slider */
+.slider.main-banner > li{
+	height: 452px;
 }

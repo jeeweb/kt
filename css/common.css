@@ -166,6 +166,22 @@
 	padding-top: 107px;
 }
 
+.section{
+	margin-top: 60px;
+}
+.section__top{
+	display: flex;
+	align-items: center;
+	margin-bottom: 26px;
+}
+.section__title{
+	font-size: 36px;
+	color: #000;
+}
+.section__sub-title{
+	font-size: 20px;
+	margin-left: 38px;
+}
 
 
 /* ===== quick menu ===== */
