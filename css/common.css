@@ -158,22 +158,31 @@
 	background: url("../images/common/chnlink-lang.png") 46px 50% no-repeat;
 }
 
+
+
+
+/* ===== contents ===== */
+.contents{
+	padding-top: 107px;
+}
+
+
+
 /* ===== quick menu ===== */
 .quick-menu__wrap{
 	position: fixed;
 	top: 150px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 1084px;
-	z-index: 500;
+	right: 50%;
 }
+
 .quick-menu{
 	top: 0;
-	margin-left: -188px;
+	margin-left: -730px;
 	width: 154px;
 	border-radius: 24px;
 	border: 1px solid #e7e7e7;
 	box-shadow: 1px 1px 6px rgba(1, 1, 1, 0.07);
+	background-color: #fff;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -233,14 +242,5 @@
 .quick-menu.hide .quick__close{
 	display: block
 }
-
-
-/* ===== contents ===== */
-.contents{
-	padding-top: 160px;
-}
-
-
-/* ===== layout ===== */
 
 

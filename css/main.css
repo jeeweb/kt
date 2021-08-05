@@ -1,5 +1,92 @@
-/* bxslider style */
+/* .slider => bxslider style */
 .bx-wrapper{
 	box-shadow: none;
 	border: none;
+}
+
+.slider > li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 452px;
+	overflow: hidden;
+}
+.bx-wrapper img{
+	height: 100%;
+	width: auto;	
+	max-width: none;
+}
+
+/* bx-controls */
+.bx-wrapper .bx-controls{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 206px;
+	margin-left: -542px;
+}
+.bx-wrapper .bx-controls-direction a{
+	top: auto;
+	bottom: 0;
+	margin-top: 0;
+	width: 46px;
+	height: 46px;
+	
+}
+.bx-wrapper .bx-prev{
+	left: 0;
+	background: url("../images/common/btn_prev_black.png") center / cover no-repeat;
+}
+.bx-wrapper .bx-next{
+	left: 110px;
+	right: auto;
+	background: url("../images/common/btn_next_black.png") center / cover no-repeat;
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus{
+	background-position: 0;
+}
+
+
+.bx-wrapper .bx-controls-auto .bx-start{
+	background: url("../images/common/btn_play.png") center / cover no-repeat;
+	width: 46px;
+	height: 46px;
+	margin: 0;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus{
+	background-position: 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop{
+	background: url("../images/common/btn_stop.png") center / cover no-repeat;
+	width: 46px;
+	height: 46px;
+	margin: 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus{
+	background-position: 0;
+}
+
+.bx-wrapper .bx-pager{
+	left: 53px;
+	font-size: 18px;
+	color: #70706f;
+	font-family: 'Noto Sans KR';
+	font-weight: normal;
+	padding-top: 0;
+	height: 46px;
+	line-height: 46px;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto{
+	bottom: 0;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{
+	text-align: center;
+	width: 47px;
 }
