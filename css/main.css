@@ -156,7 +156,35 @@
 	position: absolute;
 	width: 340px;
 	height: 340px;
+	z-index: 10;
+	background-color: #fff;
 }
+.bx-wrapper .sort-box button{
+	padding: 14px 12px;
+	background-color: #F2F2F2;
+	border-radius: 30px;
+	font-size: 15px;
+}
+.bx-wrapper .sort-box button.on{
+	font-weight: 500;
+}
+.bx-wrapper .sort-box .sort__types button.on{
+	background-color: #5DDFDE;
+}
+.bx-wrapper .sort-box .sort__tags{
+	margin-top: 24px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bx-wrapper .sort-box .sort__tags button{
+	margin: 5px 4px;
+}
+.bx-wrapper .sort-box .sort__tags button.on{
+	background-color: #000;
+	color: #fff;
+}
+
+
 .section__benefit .slider .grid{
 	display: grid;
 	gap: 30px;
@@ -273,3 +301,14 @@
 .section__benefit .slider .slider--pg4 .card__benefit:nth-child(6){
 	background-image: url("../images/main/benefit-bg-20.png")
 }
+
+/* 5시 핫딜 */
+
+
+/* KT Shop */
+.section__ktShop{
+	padding: 82px 0;
+	background: url("../images/main/bg-color-1.png") left center / cover no-repeat;
+}
+
+/* 이벤트 */
