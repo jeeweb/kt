@@ -123,6 +123,9 @@
 }
 
 /* util-menu */
+.list__util-menu{
+	position: relative;
+}
 .util__link{
 	display: flex;
 	flex-direction: column;
@@ -135,6 +138,47 @@
 }
 .util__link > span{
 	font-size: 12px;
+}
+
+.talk-info{
+	position: absolute;
+	bottom: -36px;
+	left: 130px;
+	width: 100%;
+	opacity: 0;
+}
+.talk__item{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+}
+.talk-info.show,
+.talk__item.show{
+	opacity: 1;
+}
+.talk__item:before{
+	content: "";
+	position: absolute;
+	left: 18px;
+	top: -6px;
+	width: 0;
+	height: 0;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent; 
+	border-bottom: 6px solid #5DDFDE;
+}
+
+.talk__link{
+	display: block;
+	font-size: 13px;
+	padding: 12px 14px;
+	background-color: #5DDFDE;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.talk__link:hover span{
+	text-decoration: underline;
 }
 
 /* channel-menu */
