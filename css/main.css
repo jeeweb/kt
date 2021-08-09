@@ -111,3 +111,38 @@
 .slider.main-banner > li{
 	height: 452px;
 }
+
+/* main - section__top */
+.section__top .switch{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+.switch > span{
+	display: inline-block;
+	margin-top: 3px;
+	color: #c5c5c5;
+	line-height: 1;
+	font-weight: 500;
+}
+.switch > span.on{
+	color: #000;
+}
+.switch .btn__switch{
+	width: 64px;
+	height: 32px;
+	padding: 3px;
+	margin: 0 16px;
+	border-radius: 16px;
+	background-color:#109891;
+}
+.btn__switch span{
+	display: block;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.btn__switch.right span{
+	transform: translateX(32px)
+}
