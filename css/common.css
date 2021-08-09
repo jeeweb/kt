@@ -18,6 +18,10 @@
 	justify-content: center;
 }
 
+.font--white{
+	color: #fff;
+}
+
 /* ===== layout ===== */
 
 
@@ -147,6 +151,7 @@
 	width: 100%;
 	opacity: 0;
 }
+
 .talk__item{
 	position: absolute;
 	bottom: 0;
