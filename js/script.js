@@ -17,6 +17,14 @@ $(function() {
 		pager: true,
 		pagerType: 'short',
 		});
+
+	$('.slider__benefit').bxSlider({
+		auto: true,
+		stopAutoOnClick: true,
+		autoControls: false,
+		pager: true,
+		pagerType: 'short',
+		});
 	
 
 

@@ -160,7 +160,7 @@
 	background-color: #fff;
 }
 .bx-wrapper .sort-box button{
-	padding: 14px 12px;
+	padding: 12px;
 	background-color: #F2F2F2;
 	border-radius: 30px;
 	font-size: 15px;
@@ -185,18 +185,18 @@
 }
 
 
-.section__benefit .slider .grid{
+.section__benefit .grid{
 	display: grid;
 	gap: 30px;
 	grid-template-columns: repeat(3, 1fr);
 }
-.section__benefit .slider > li{
+.section__benefit > li{
 	height: auto;
 }
-.section__benefit .slider .card__benefit{
+.section__benefit .card__benefit{
 	background: center no-repeat;
 }
-.section__benefit .slider .card__link{
+.section__benefit .card__link{
 	display: block;
 	box-sizing: border-box;
 	width: 340px;
@@ -237,68 +237,74 @@
 	margin-top: 8px;
 }
 
+.section__benefit .bx-wrapper .bx-controls{
+	width: 150px
+}
+.section__benefit .bx-wrapper .bx-pager{
+	left: 0;
+}
 
-.section__benefit .slider .slider--pg1 .card__benefit:nth-child(2){
+.section__benefit .slider--pg1 .card__benefit:nth-child(2){
 	background-image: url("../images/main/benefit-bg-1.png")
 }
-.section__benefit .slider .slider--pg1 .card__benefit:nth-child(3){
+.section__benefit .slider--pg1 .card__benefit:nth-child(3){
 	background-image: url("../images/main/benefit-bg-2.png")
 }
-.section__benefit .slider .slider--pg1 .card__benefit:nth-child(4){
+.section__benefit .slider--pg1 .card__benefit:nth-child(4){
 	background-image: url("../images/main/benefit-bg-3.png")
 }
-.section__benefit .slider .slider--pg1 .card__benefit:nth-child(5){
+.section__benefit .slider--pg1 .card__benefit:nth-child(5){
 	background-image: url("../images/main/benefit-bg-4.png")
 }
-.section__benefit .slider .slider--pg1 .card__benefit:nth-child(6){
+.section__benefit .slider--pg1 .card__benefit:nth-child(6){
 	background-image: url("../images/main/benefit-bg-5.png")
 }
 
-.section__benefit .slider .slider--pg2 .card__benefit:nth-child(2){
+.section__benefit .slider--pg2 .card__benefit:nth-child(2){
 	background-image: url("../images/main/benefit-bg-6.png")
 }
-.section__benefit .slider .slider--pg2 .card__benefit:nth-child(3){
+.section__benefit .slider--pg2 .card__benefit:nth-child(3){
 	background-image: url("../images/main/benefit-bg-7.png")
 }
-.section__benefit .slider .slider--pg2 .card__benefit:nth-child(4){
+.section__benefit .slider--pg2 .card__benefit:nth-child(4){
 	background-image: url("../images/main/benefit-bg-8.png")
 }
-.section__benefit .slider .slider--pg2 .card__benefit:nth-child(5){
+.section__benefit .slider--pg2 .card__benefit:nth-child(5){
 	background-image: url("../images/main/benefit-bg-9.png")
 }
-.section__benefit .slider .slider--pg2 .card__benefit:nth-child(6){
+.section__benefit .slider--pg2 .card__benefit:nth-child(6){
 	background-image: url("../images/main/benefit-bg-10.png")
 }
 
-.section__benefit .slider .slider--pg3 .card__benefit:nth-child(2){
+.section__benefit .slider--pg3 .card__benefit:nth-child(2){
 	background-image: url("../images/main/benefit-bg-11.png")
 }
-.section__benefit .slider .slider--pg3 .card__benefit:nth-child(3){
+.section__benefit .slider--pg3 .card__benefit:nth-child(3){
 	background-image: url("../images/main/benefit-bg-12.png")
 }
-.section__benefit .slider .slider--pg3 .card__benefit:nth-child(4){
+.section__benefit .slider--pg3 .card__benefit:nth-child(4){
 	background-image: url("../images/main/benefit-bg-13.png")
 }
-.section__benefit .slider .slider--pg3 .card__benefit:nth-child(5){
+.section__benefit .slider--pg3 .card__benefit:nth-child(5){
 	background-image: url("../images/main/benefit-bg-14.png")
 }
-.section__benefit .slider .slider--pg3 .card__benefit:nth-child(6){
+.section__benefit .slider--pg3 .card__benefit:nth-child(6){
 	background-image: url("../images/main/benefit-bg-15.png")
 }
 
-.section__benefit .slider .slider--pg4 .card__benefit:nth-child(2){
+.section__benefit .slider--pg4 .card__benefit:nth-child(2){
 	background-image: url("../images/main/benefit-bg-16.png")
 }
-.section__benefit .slider .slider--pg4 .card__benefit:nth-child(3){
+.section__benefit .slider--pg4 .card__benefit:nth-child(3){
 	background-image: url("../images/main/benefit-bg-17.png")
 }
-.section__benefit .slider .slider--pg4 .card__benefit:nth-child(4){
+.section__benefit .slider--pg4 .card__benefit:nth-child(4){
 	background-image: url("../images/main/benefit-bg-18.png")
 }
-.section__benefit .slider .slider--pg4 .card__benefit:nth-child(5){
+.section__benefit .slider--pg4 .card__benefit:nth-child(5){
 	background-image: url("../images/main/benefit-bg-19.png")
 }
-.section__benefit .slider .slider--pg4 .card__benefit:nth-child(6){
+.section__benefit .slider--pg4 .card__benefit:nth-child(6){
 	background-image: url("../images/main/benefit-bg-20.png")
 }
 
