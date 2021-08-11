@@ -337,5 +337,47 @@
 	padding: 82px 0;
 	background: url("../images/main/bg-color-1.png") left center / cover no-repeat;
 }
+.section__ktShop .inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section__ktShop .section__top{
+	flex-direction: column;
+	align-items:flex-start;
+	width: 264px;
+}
+.section__ktShop .section__sub-title{
+	font-size: 25px;
+	margin-top: 24px;
+}
+.section__ktShop .bx-wrapper{
+	background: transparent;
+	width: 810px;
+}
+.section__ktShop .slider > li {
+	height: 330px;
+	width: 810px;
+}
+.section__ktShop .bx-wrapper .bx-controls {
+	left: 268px;
+	right: auto;
+	bottom: 78px;
+}
+.section__ktShop .bx-wrapper .bx-prev{
+	background-image: url("../images/common/btn_prev_black_shop.png")
+}
+.section__ktShop .bx-wrapper .bx-next{
+	background-image: url("../images/common/btn_next_black_shop.png")
+}
+.section__ktShop .bx-wrapper .bx-controls-auto .bx-start{
+	background-image: url("../images/common/btn_play_shop.png")
+}
+.section__ktShop .bx-wrapper .bx-controls-auto .bx-stop{
+	background-image: url("../images/common/btn_stop_shop.png")
+}
+.section__ktShop .bx-wrapper .bx-pager{
+	color: #222;
+}
 
 /* 이벤트 */
