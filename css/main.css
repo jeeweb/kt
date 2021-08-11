@@ -237,10 +237,12 @@
 	margin-top: 8px;
 }
 
-.section__benefit .bx-wrapper .bx-controls{
+.section__benefit .bx-wrapper .bx-controls,
+.section__event .bx-controls{
 	width: 150px
 }
-.section__benefit .bx-wrapper .bx-pager{
+.section__benefit .bx-wrapper .bx-pager,
+.section__event .bx-pager{
 	left: 0;
 }
 
@@ -381,3 +383,22 @@
 }
 
 /* 이벤트 */
+.section__event .slider__benefit > li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.event__card .event__label{
+	display: block;
+	font-weight: 500;
+	margin-top: 26px;
+}
+.event__card .event__name{
+	display: block;
+	font-size: 20px;
+	padding: 8px 0;
+}
+.event__card .event__period{
+	color: #999;
+	font-size: 15px;
+}
