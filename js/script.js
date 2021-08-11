@@ -16,7 +16,7 @@ $(function() {
 		autoControlsCombine: true,
 		pager: true,
 		pagerType: 'short',
-		});
+	});
 
 	$('.slider__benefit').bxSlider({
 		auto: true,
@@ -24,8 +24,22 @@ $(function() {
 		autoControls: false,
 		pager: true,
 		pagerType: 'short',
-		});
+	});
 	
+	/* main 핫딜 - swiper */
+	var swiperThumbs = new Swiper('.swiper-thumb', {
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
 
-
+	var swiperSlides = new Swiper('.swiper-contents', {
+		effect: "fade",
+		thumbs: {
+			swiper: swiperThumbs,
+		}
+	})
+	swiperSlides.params.control = swiperThumbs
+	swiperThumbs.params.control = swiperSlides
 })

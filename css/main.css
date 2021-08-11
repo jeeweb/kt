@@ -309,7 +309,28 @@
 }
 
 /* 5시 핫딜 */
-
+.section__hotdeal .swiper-container{
+	max-width: 1084px;
+}
+.swiper-thumb{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.swiper-thumb .swiper-slide{
+	width: 343px;
+}
+.swiper-thumb .swiper-slide-thumb-active:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 341px;
+	height: 133px;
+	border: 1px solid #000;
+	border-radius: 25px;
+}
 
 /* KT Shop */
 .section__ktShop{

@@ -5,13 +5,22 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- favicon -->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Link bxSlider's CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
+	<!-- jQuery CDN -->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!-- bxSlider -->
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 	<script src="js/script.js"></script>
 	<title>KT</title>
 </head>
@@ -1736,13 +1745,37 @@
 						</ul>
 					</div>
 				</section>
-				<section class="section">
+				<section class="section section__hotdeal">
 					<div class="section__top">
 						<h3 class="section__title">5시 핫딜 ></h3>
 						<p class="section__sub-title">화/수/목 5시에 누리는 통 큰 혜택을 누려보세요!</p>
 					</div>
-
-					<div class="bx-wrapper"></div>
+					<div>
+						<div class="swiper-container swiper-contents">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="images/main/hotdeal-1.png" alt="8월11일 수요일 오후5시, 121,000원인 레트로 카세트가 추첨되는 50명에게만 500원">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/main/hotdeal-2.png" alt="8월12일 목요일 오후 5시, 14,900원 요거통통 메론설빙이 추첨된 200명에게만 0원">
+								</div>
+							</div>
+							<div class="swiper-slide"></div>
+						</div>
+						<div thumbsSlider="" class="swiper-container swiper-thumb">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="images/main/hotdeal-thumb-1.png" alt="8월11일 수요일 오후5시, 레트로 카세트가 500원">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/main/hotdeal-thumb-2.png" alt="8월12일 목요일 오후 5시, 요거통통 메론설빙이 0원">
+								</div>
+								<div>
+									<img src="images/main/hotdeal_comingsoon.png" alt="준비중입니다">
+								</div>
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
 			<section class="section section__ktShop">
