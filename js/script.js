@@ -39,7 +39,8 @@ $(function() {
 		thumbs: {
 			swiper: swiperThumbs,
 		}
-	})
-	swiperSlides.params.control = swiperThumbs
-	swiperThumbs.params.control = swiperSlides
+	});
+
+	/* main CS - jqueryUI - tabs */
+	$('.tab-wrapper').tabs();
 })

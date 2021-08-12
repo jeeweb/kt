@@ -402,3 +402,37 @@
 	color: #999;
 	font-size: 15px;
 }
+
+/* 서비스 */
+.section__cs{
+	padding: 82px 0;
+	background: url("../images/main/bg-color-2.png") left center / cover no-repeat;
+}
+.tab-wrapper{
+	position: relative;
+}
+.tab-wrapper .ui-tabs-nav{
+	position: absolute;
+	top: -58px;
+	right: 0;
+	display: flex;
+	align-items: center;
+
+}
+.tab-wrapper .ui-tabs-nav .ui-tabs-tab{
+	position: relative;
+	margin-left: 16px;
+	font-size: 18px;
+}
+.tab-wrapper .ui-tabs-nav .ui-tabs-tab.ui-tabs-active{
+	font-weight: 500
+}
+.tab-wrapper .ui-tabs-nav .ui-tabs-tab.ui-tabs-active:after{
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+}
